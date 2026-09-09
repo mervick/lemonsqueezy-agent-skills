@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lemon Squeezy Python"
+  short_description: "Integrate Lemon Squeezy with Python"
+  default_prompt: "Use $lemonsqueezy-python to implement Lemon Squeezy in this Python project."

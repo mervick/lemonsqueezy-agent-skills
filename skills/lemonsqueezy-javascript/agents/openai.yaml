@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lemon Squeezy JavaScript"
+  short_description: "Use the official JavaScript SDK safely"
+  default_prompt: "Use $lemonsqueezy-javascript to implement Lemon Squeezy in this JavaScript or TypeScript project."

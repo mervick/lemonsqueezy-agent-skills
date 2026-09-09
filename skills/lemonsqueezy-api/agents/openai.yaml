@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lemon Squeezy API"
+  short_description: "Implement every Lemon Squeezy API area"
+  default_prompt: "Use $lemonsqueezy-api to implement a Lemon Squeezy REST API workflow."

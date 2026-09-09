@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lemon Squeezy Webhooks"
+  short_description: "Build reliable webhook synchronization"
+  default_prompt: "Use $lemonsqueezy-webhooks to implement reliable Lemon Squeezy webhook processing."

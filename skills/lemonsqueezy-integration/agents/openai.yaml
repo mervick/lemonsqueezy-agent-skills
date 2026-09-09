@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lemon Squeezy Integration"
+  short_description: "Build secure Lemon Squeezy integrations"
+  default_prompt: "Use $lemonsqueezy-integration to implement or review a Lemon Squeezy billing integration."

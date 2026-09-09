@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lemon Squeezy Go"
+  short_description: "Integrate Lemon Squeezy with Go"
+  default_prompt: "Use $lemonsqueezy-go to implement Lemon Squeezy in this Go project."
