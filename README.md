@@ -1,9 +1,12 @@
 # Lemon Squeezy Agent Skills
 
+[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-format-7c3aed)](https://agentskills.io)
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
+
 > **Community-maintained project.**  
 > This repository is not affiliated with, endorsed by, or officially supported by Lemon Squeezy. The skills are based on public Lemon Squeezy documentation and are intended to help AI coding agents build and maintain Lemon Squeezy integrations.
 
-A modular suite of Agent Skills for building and operating Lemon Squeezy integrations across applications, websites, services, and digital products. It provides implementation-focused, safety-conscious guidance based on current Lemon Squeezy documentation and official/community SDK sources.
+A modular suite of Agent Skills for building and maintaining Lemon Squeezy integrations across applications, websites, services, and digital products. It provides implementation-focused, safety-conscious guidance based on current Lemon Squeezy documentation and official and community SDK sources.
 
 ## Skills
 
@@ -87,4 +90,4 @@ The suite was checked on 2026-09-09 against:
 
 Important current distinctions are preserved in the skills: the main API documents 300 requests per minute, the License API separately documents 60, receipt resend is a dashboard workflow rather than a documented public Orders API action, the Go SDK has meaningful coverage gaps, and `lemonsqueepy` is a standalone application rather than a conventional Python SDK.
 
-Always re-check current official endpoint documentation and the exact locked SDK version before relying on drift-prone fields or mutations.
+For drift-prone fields and mutations, verify the current official endpoint documentation and the exact SDK version used by your project.
