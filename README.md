@@ -1,6 +1,6 @@
-# Lemon Squeezy Skills for Codex
+# Lemon Squeezy Agent Skills
 
-A modular Codex skill suite for building and operating Lemon Squeezy integrations across applications, websites, services, and digital products. It provides implementation-focused, safety-conscious guidance based on current Lemon Squeezy documentation and SDK source.
+A modular suite of Agent Skills for building and operating Lemon Squeezy integrations across applications, websites, services, and digital products. It provides implementation-focused, safety-conscious guidance based on current Lemon Squeezy documentation and SDK source.
 
 ## Skills
 
@@ -18,7 +18,45 @@ Each skill uses progressive disclosure: `SKILL.md` holds routing and invariants,
 
 ## Installation
 
-Copy or symlink the desired skill directories into the Codex skills directory (normally `$CODEX_HOME/skills`, or `~/.codex/skills` when `CODEX_HOME` is unset). Keep the complete directory for each skill so its `agents/` metadata and `references/` remain available.
+### Install from GitHub
+
+Use the Agent Skills CLI to install from the repository:
+
+```bash
+npx skills add mervick/lemonsqueezy-agent-skills
+```
+
+The interactive installer lets you select the Lemon Squeezy skills you need, the target agent, and project-level or global installation. For Codex, select `codex`; project-level skills are installed under `.codex/skills/`, while global skills are installed under `~/.codex/skills/`.
+
+To inspect the available skills before installing:
+
+```bash
+npx skills add mervick/lemonsqueezy-agent-skills --list
+```
+
+To install a specific skill globally for Codex without prompts:
+
+```bash
+npx skills add mervick/lemonsqueezy-agent-skills \
+  --skill lemonsqueezy-integration \
+  --agent codex \
+  --global \
+  --yes
+```
+
+Repeat `--skill <name>` to install several skills in one command. Run `npx skills check` to check for updates and `npx skills update` to update installed skills.
+
+### Install manually
+
+Clone the repository and copy or symlink the desired directories from `skills/` into your agent's skills directory. For Codex, the default global directory is `~/.codex/skills/`:
+
+```bash
+git clone https://github.com/mervick/lemonsqueezy-agent-skills.git
+mkdir -p ~/.codex/skills
+cp -R lemonsqueezy-agent-skills/skills/lemonsqueezy-integration ~/.codex/skills/
+```
+
+Replace `lemonsqueezy-integration` with another skill name, or copy all directories under `skills/` to install the complete suite. Keep each complete skill directory so its `agents/` metadata and `references/` remain available.
 
 The skills intentionally do not contain credentials or scripts that call a live store.
 
