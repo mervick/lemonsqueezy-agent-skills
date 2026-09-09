@@ -1,6 +1,9 @@
 # Lemon Squeezy Agent Skills
 
-A modular suite of Agent Skills for building and operating Lemon Squeezy integrations across applications, websites, services, and digital products. It provides implementation-focused, safety-conscious guidance based on current Lemon Squeezy documentation and SDK source.
+> **Community-maintained project.**  
+> This repository is not affiliated with, endorsed by, or officially supported by Lemon Squeezy. The skills are based on public Lemon Squeezy documentation and are intended to help AI coding agents build and maintain Lemon Squeezy integrations.
+
+A modular suite of Agent Skills for building and operating Lemon Squeezy integrations across applications, websites, services, and digital products. It provides implementation-focused, safety-conscious guidance based on current Lemon Squeezy documentation and official/community SDK sources.
 
 ## Skills
 
